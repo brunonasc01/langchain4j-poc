@@ -1,0 +1,6 @@
+quarkus:
+  langchain4j:
+    openai:
+      api-key: ${API_KEY}
+      chat-model:
+        model-name: gpt-4o
